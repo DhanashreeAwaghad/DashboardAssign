@@ -1,0 +1,343 @@
+[
+  {
+    "id": "BB003AC7-17D6-4F1C-A9A6-08A2E939D257",
+    "title": "Python Programming",
+    "instructor": "John Smith",
+    "lessons": [
+      {
+        "id": "2F201B43-3F8E-4BE5-A6B8-491E8D72B01D",
+        "title": "Introduction",
+        "isCompleted": true
+      },
+      {
+        "id": "B0FAE10D-1CF3-4B02-980E-9A441865E941",
+        "title": "Installing Python",
+        "isCompleted": true
+      },
+      {
+        "id": "7CB34FD9-F962-4135-9946-9D4568111966",
+        "title": "Variables",
+        "isCompleted": true
+      },
+      {
+        "id": "6DAEF56F-E558-4503-9F29-6C48C403787C",
+        "title": "Data Types",
+        "isCompleted": true
+      },
+      {
+        "id": "A4A90254-8250-4292-A708-EDCF3FCE665C",
+        "title": "Operators",
+        "isCompleted": true
+      },
+      {
+        "id": "3F45EF12-6651-4423-90FD-E392F4B56787",
+        "title": "Strings",
+        "isCompleted": true
+      },
+      {
+        "id": "BECE756A-96AD-45F9-B8B0-C5A53F046DA5",
+        "title": "Lists",
+        "isCompleted": true
+      },
+      {
+        "id": "7A7BFD98-7FEF-4379-9C94-D4A8A290ECD0",
+        "title": "Tuples",
+        "isCompleted": true
+      },
+      {
+        "id": "715984A0-D5B8-43C3-A617-937B9BC86FB8",
+        "title": "Dictionaries",
+        "isCompleted": true
+      },
+      {
+        "id": "DB1D787B-13FF-4E78-A748-4D6372F515BD",
+        "title": "Conditions",
+        "isCompleted": true
+      },
+      {
+        "id": "D0A12D34-EEBA-4842-9593-57BC799FDDCC",
+        "title": "Loops",
+        "isCompleted": true
+      },
+      {
+        "id": "9341D5D3-47AC-4F68-9A12-1E09E0245ECC",
+        "title": "Functions",
+        "isCompleted": true
+      },
+      {
+        "id": "9113EE24-D699-49B0-ABFC-2E4CF5D5B3AC",
+        "title": "Modules",
+        "isCompleted": true
+      },
+      {
+        "id": "08C35F47-EDB7-492A-A363-06A108EB7D6B",
+        "title": "Exceptions",
+        "isCompleted": false
+      },
+      {
+        "id": "2CAA0A6C-04AA-4B67-B55A-1662427C5448",
+        "title": "Files",
+        "isCompleted": false
+      },
+      {
+        "id": "17E29BBA-F9D6-4E60-AD86-EA75C9A242D3",
+        "title": "Classes",
+        "isCompleted": false
+      },
+      {
+        "id": "053C3B02-0180-4FB8-85F0-F6ACCF9163CF",
+        "title": "Inheritance",
+        "isCompleted": false
+      },
+      {
+        "id": "FD2C4DCE-6E11-43B9-87BC-3768430DD8BB",
+        "title": "Packages",
+        "isCompleted": false
+      },
+      {
+        "id": "644D3CB5-4BF6-489A-BBA6-5F27BB56B107",
+        "title": "Testing",
+        "isCompleted": false
+      },
+      {
+        "id": "A51351C9-8929-4EB1-A138-22ED0016EB98",
+        "title": "Final Project",
+        "isCompleted": false
+      }
+    ]
+  },
+  {
+    "id": "34E66CB4-8190-4D1B-8F62-5BF230F75E5C",
+    "title": "Generative AI",
+    "instructor": "Sarah Williams",
+    "lessons": [
+      {
+        "id": "07A93584-BAB6-4238-9554-6BB931B0D72E",
+        "title": "Introduction to Generative AI",
+        "isCompleted": true
+      },
+      {
+        "id": "E2BAF047-F8E0-405C-A5F1-B764AD35CF06",
+        "title": "Machine Learning Foundations",
+        "isCompleted": true
+      },
+      {
+        "id": "F52D0726-FCE0-41E9-B069-25B536BCDB75",
+        "title": "Neural Networks",
+        "isCompleted": true
+      },
+      {
+        "id": "A8AAC76A-75EE-445B-9FF6-B3058AEEECB7",
+        "title": "Transformers",
+        "isCompleted": true
+      },
+      {
+        "id": "32F8DC95-031C-42D0-AE5E-46F79FE17FBD",
+        "title": "Prompt Design",
+        "isCompleted": true
+      },
+      {
+        "id": "341E6D58-A23A-4D55-A9EA-DA53C6809D80",
+        "title": "Text Generation",
+        "isCompleted": true
+      },
+      {
+        "id": "58717782-9D23-4E53-B252-361512C4D932",
+        "title": "Image Generation",
+        "isCompleted": false
+      },
+      {
+        "id": "CAE4F543-A269-4A81-96A6-C17985187091",
+        "title": "Embeddings",
+        "isCompleted": false
+      },
+      {
+        "id": "0D80CD6A-F908-4978-A761-5000D25E7BA1",
+        "title": "Vector Search",
+        "isCompleted": false
+      },
+      {
+        "id": "52018F50-AB55-43CD-8EE6-139B04B61AAA",
+        "title": "RAG Basics",
+        "isCompleted": false
+      },
+      {
+        "id": "069EB5A8-4A3A-47BD-A5B1-07734294324B",
+        "title": "Fine Tuning",
+        "isCompleted": false
+      },
+      {
+        "id": "E84A3300-0715-480D-9FDD-C278F9C4C5EE",
+        "title": "Evaluation",
+        "isCompleted": false
+      },
+      {
+        "id": "A02C0A39-417F-41B5-B409-76A96BE9FE67",
+        "title": "Safety",
+        "isCompleted": false
+      },
+      {
+        "id": "FDA5144C-0555-4BBE-97E9-0B3DDC4C7563",
+        "title": "AI Product Design",
+        "isCompleted": false
+      },
+      {
+        "id": "3F4CA32F-2794-40D6-BAE0-449998E7E106",
+        "title": "Deployment",
+        "isCompleted": false
+      },
+      {
+        "id": "9F2153F5-90E1-4C5C-8A35-8E504A307303",
+        "title": "Capstone",
+        "isCompleted": false
+      }
+    ]
+  },
+  {
+    "id": "E97FE562-A834-482E-9EB7-F4EDE666CB9E",
+    "title": "Full Stack Development",
+    "instructor": "David Brown",
+    "lessons": [
+      {
+        "id": "CBF0EBD5-C97C-4428-A560-5F9ED4989740",
+        "title": "Web Fundamentals",
+        "isCompleted": true
+      },
+      {
+        "id": "C612B777-CD8F-4E3B-8238-32D195819C35",
+        "title": "HTML",
+        "isCompleted": true
+      },
+      {
+        "id": "B3D000A5-070E-4D7B-AD63-A97A101D207B",
+        "title": "CSS",
+        "isCompleted": true
+      },
+      {
+        "id": "BBB3D6D0-CB7C-4F30-846D-DBCA589CA8DE",
+        "title": "JavaScript",
+        "isCompleted": true
+      },
+      {
+        "id": "85414640-5A9F-435B-AE8F-075D14827F46",
+        "title": "TypeScript",
+        "isCompleted": true
+      },
+      {
+        "id": "807EE8EC-CFF0-4D5C-AC2D-9157A6A037FA",
+        "title": "Git",
+        "isCompleted": true
+      },
+      {
+        "id": "6135C59E-F45C-4C05-874E-4F4092D36ABB",
+        "title": "HTTP",
+        "isCompleted": true
+      },
+      {
+        "id": "A63D3EAC-414A-45DF-8820-0C90AFE52B40",
+        "title": "REST APIs",
+        "isCompleted": false
+      },
+      {
+        "id": "5143F8E5-7C21-4A97-9132-9860F6504E3C",
+        "title": "Node.js",
+        "isCompleted": false
+      },
+      {
+        "id": "60B98DE9-ABAB-4E06-97A8-842A01DD7877",
+        "title": "Express",
+        "isCompleted": false
+      },
+      {
+        "id": "63B51340-B72C-4D4E-8323-5682B68A865D",
+        "title": "Databases",
+        "isCompleted": false
+      },
+      {
+        "id": "389E87BB-0DDF-4B12-A804-2C1950824072",
+        "title": "SQL",
+        "isCompleted": false
+      },
+      {
+        "id": "D73C06CD-E42F-45D4-8B03-753AE7FD8A2A",
+        "title": "Authentication",
+        "isCompleted": false
+      },
+      {
+        "id": "28BA021B-FB64-4B45-BCCC-4B258F2E0641",
+        "title": "React",
+        "isCompleted": false
+      },
+      {
+        "id": "143842F6-6155-4195-B008-7A53A2DF4DCB",
+        "title": "State Management",
+        "isCompleted": false
+      },
+      {
+        "id": "0EAFBA65-1988-45F2-B7C5-96C7658A0830",
+        "title": "Testing",
+        "isCompleted": false
+      },
+      {
+        "id": "9909484D-467B-4536-BBF1-CBEFB240A8EC",
+        "title": "Deployment",
+        "isCompleted": false
+      },
+      {
+        "id": "DB7B0731-CDFF-4A5E-BD41-346FD3A22D9B",
+        "title": "Cloud Hosting",
+        "isCompleted": false
+      },
+      {
+        "id": "D3D0826F-A25D-4069-BC03-6C5548291E17",
+        "title": "Security",
+        "isCompleted": false
+      },
+      {
+        "id": "5305DBAE-B595-4012-8E2A-4023825F34B3",
+        "title": "Performance",
+        "isCompleted": false
+      },
+      {
+        "id": "CADC905F-0532-435C-BBE6-DF86F90A52D7",
+        "title": "Accessibility",
+        "isCompleted": false
+      },
+      {
+        "id": "060701C7-F198-4666-ACCD-8662EA3D7632",
+        "title": "Monitoring",
+        "isCompleted": false
+      },
+      {
+        "id": "254FCA70-0ACF-4818-A318-7B7950E0F324",
+        "title": "CI/CD",
+        "isCompleted": false
+      },
+      {
+        "id": "EA37F14B-3C89-459D-99F8-73D967267F16",
+        "title": "Architecture",
+        "isCompleted": false
+      },
+      {
+        "id": "7C87724C-B03C-4DDC-8B4B-E65CB202E42D",
+        "title": "Caching",
+        "isCompleted": false
+      },
+      {
+        "id": "8039A5C7-0A6C-496D-99F4-14EAC354F8DB",
+        "title": "Scaling",
+        "isCompleted": false
+      },
+      {
+        "id": "8EE2FAAF-419C-4B80-994F-33270DB308F4",
+        "title": "Troubleshooting",
+        "isCompleted": false
+      },
+      {
+        "id": "F84CB446-2055-4D0B-966D-6056DDB50B60",
+        "title": "Final Project",
+        "isCompleted": false
+      }
+    ]
+  }
+]

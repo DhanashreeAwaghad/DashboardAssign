@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000010 /* LearningDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000006 /* LearningDashboardApp.swift */; };
+		000000000000000000000011 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* Models.swift */; };
+		000000000000000000000012 /* CourseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* CourseService.swift */; };
+		000000000000000000000013 /* CourseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* CourseRepository.swift */; };
+		000000000000000000000014 /* CourseDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* CourseDashboardViewModel.swift */; };
+		000000000000000000000015 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* Views.swift */; };
+		000000000000000000000016 /* courses.json in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000C /* courses.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000000000000000020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00000000000000000000001E;
+			remoteInfo = LearningDashboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000006 /* LearningDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningDashboardApp.swift; sourceTree = "<group>"; };
+		000000000000000000000007 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		000000000000000000000008 /* CourseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseService.swift; sourceTree = "<group>"; };
+		000000000000000000000009 /* CourseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRepository.swift; sourceTree = "<group>"; };
+		00000000000000000000000A /* CourseDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDashboardViewModel.swift; sourceTree = "<group>"; };
+		00000000000000000000000B /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		00000000000000000000000C /* courses.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = courses.json; sourceTree = "<group>"; };
+		00000000000000000000000E /* LearningDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000000000000000000F /* LearningDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000003 /* LearningDashboard */,
+				000000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* LearningDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000006 /* LearningDashboardApp.swift */,
+				000000000000000000000007 /* Models.swift */,
+				000000000000000000000008 /* CourseService.swift */,
+				000000000000000000000009 /* CourseRepository.swift */,
+				00000000000000000000000A /* CourseDashboardViewModel.swift */,
+				00000000000000000000000B /* Views.swift */,
+				00000000000000000000000C /* courses.json */,
+			);
+			path = LearningDashboard;
+			sourceTree = "<group>";
+		};
+		000000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000000E /* LearningDashboard.app */,
+				00000000000000000000000F /* LearningDashboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00000000000000000000001E /* LearningDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000025 /* Build configuration list for PBXNativeTarget "LearningDashboard" */;
+			buildPhases = (
+				000000000000000000000018 /* Sources */,
+				00000000000000000000001A /* Frameworks */,
+				000000000000000000000019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningDashboard;
+			productName = LearningDashboard;
+			productReference = 00000000000000000000000E /* LearningDashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00000000000000000000001F /* LearningDashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000028 /* Build configuration list for PBXNativeTarget "LearningDashboardTests" */;
+			buildPhases = (
+				00000000000000000000001B /* Sources */,
+				00000000000000000000001D /* Frameworks */,
+				00000000000000000000001C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000021 /* PBXTargetDependency */,
+			);
+			name = LearningDashboardTests;
+			productName = LearningDashboardTests;
+			productReference = 00000000000000000000000F /* LearningDashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					00000000000000000000001E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					00000000000000000000001F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 00000000000000000000001E;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000022 /* Build configuration list for PBXProject "LearningDashboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00000000000000000000001E /* LearningDashboard */,
+				00000000000000000000001F /* LearningDashboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000016 /* courses.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000001C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000010 /* LearningDashboardApp.swift in Sources */,
+				000000000000000000000011 /* Models.swift in Sources */,
+				000000000000000000000012 /* CourseService.swift in Sources */,
+				000000000000000000000013 /* CourseRepository.swift in Sources */,
+				000000000000000000000014 /* CourseDashboardViewModel.swift in Sources */,
+				000000000000000000000015 /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000001B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00000000000000000000001E /* LearningDashboard */;
+			targetProxy = 000000000000000000000020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000000000000000000026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learning Dashboard";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LearningDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learning Dashboard";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LearningDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		000000000000000000000029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LearningDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningDashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningDashboard";
+			};
+			name = Debug;
+		};
+		00000000000000000000002A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LearningDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningDashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningDashboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000022 /* Build configuration list for PBXProject "LearningDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000023 /* Debug */,
+				000000000000000000000024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000025 /* Build configuration list for PBXNativeTarget "LearningDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000026 /* Debug */,
+				000000000000000000000027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000028 /* Build configuration list for PBXNativeTarget "LearningDashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000029 /* Debug */,
+				00000000000000000000002A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
